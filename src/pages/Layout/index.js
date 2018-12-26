@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <Menu size="large" inverted stackable color="green">
         <Container >
           <Menu.Item as='a' header>
-            <Image size='tiny' src={logo} style={{ marginRight: '1.5em' }} />
+            <Link to="/"><Image size='tiny' src={logo} style={{ marginRight: '1.5em' }} /></Link>
           </Menu.Item>
           <Menu.Menu position='right'>
             <Menu.Item name='link1'>
