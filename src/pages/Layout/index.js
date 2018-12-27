@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     <div style={{ display: 'flex', minHeight: '100vh', flexDirection: 'column' }}>
       <Menu size="large" inverted stackable color="green">
         <Container >
-          <Menu.Item as='a' header>
+          <Menu.Item header>
             <Link to="/"><Image size='tiny' src={logo} style={{ marginRight: '1.5em' }} /></Link>
           </Menu.Item>
           <Menu.Menu position='right'>
@@ -18,8 +18,8 @@ const Layout = ({ children }) => {
             <Menu.Item name='link2' >
               <Link to="/ComisionDirectiva"><Header inverted as='h4' content='COMISIÓN DIRECTIVA' /></Link>
             </Menu.Item>
-            <Menu.Item name='link2' >
-              <Link to="/Link2"><Header inverted as='h4' content='CASTRACIONES' /></Link>
+            <Menu.Item name='link3' >
+              <Link to="/QuieroColaborar"><Header inverted as='h4' content='QUIERO COLABORAR' /></Link>
             </Menu.Item>
           </Menu.Menu>
         </Container>
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
               <Link to="/ComisionDirectiva"><Header inverted as='h4' content='COMISIÓN DIRECTIVA' /></Link>
             </Grid.Column>
             <Grid.Column width={2} verticalAlign="middle">
-              <Link to="/Link2"><Header inverted as='h4' content='CASTRACIONES' /></Link>
+              <Link to="/QuieroColaborar"><Header inverted as='h4' content='QUIERO COLABORAR' /></Link>
             </Grid.Column>
             <Grid.Column width={5}>
               <Header inverted as='h4' content='Seguí a GAPA en las redes sociales' />
@@ -68,7 +68,7 @@ const Layout = ({ children }) => {
           </Grid>
         </Container>
       </Segment>
-    </div>
+    </div >
   );
 };
 
