@@ -2,6 +2,7 @@ const commonPaths = require('./common-paths');
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const config = {
   entry: {
@@ -44,6 +45,9 @@ const config = {
     }
   },
   plugins: [
+    new CopyWebpackPlugin([
+      { from: 'public/styles/', to: 'styles' }
+    ]),
     new HtmlWebpackPlugin({
       template: `public/index.html`,
       favicon: `public/favicon.ico`
