@@ -1,0 +1,7 @@
+.ui.inverted.green.menu, .ui.inverted.menu .green.active.item {
+  background-color: #016936;
+}
+.ui.inverted.green.segment {
+  background-color: #016936!important;
+  color: #fff!important;
+}

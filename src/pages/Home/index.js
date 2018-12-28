@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import Slider from 'react-slick';
 import { testAction } from '../../actions/appActions';
 import Layout from '../Layout';
-import './Home.css';
+import styles from './Home.css';
 
 const settings = {
   dots: true,
@@ -32,6 +32,9 @@ class Home extends Component {
               <Grid.Column>
                 <div>
                   <h1>Banners</h1>
+                </div>
+                <div className={styles.container}>
+                  <p className={styles.content}>Get started with CSS Modules style</p>
                 </div>
               </Grid.Column>
             </Grid.Row>
