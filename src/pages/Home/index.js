@@ -30,11 +30,8 @@ class Home extends Component {
           <Grid stackable celled='internally'>
             <Grid.Row>
               <Grid.Column>
-                <div>
-                  <h1>Banners</h1>
-                </div>
                 <div className={styles.container}>
-                  <p className={styles.content}>Get started with CSS Modules style</p>
+                  <p className={styles.content}>ACA VAN TODAS LAS IMAGENES</p>
                 </div>
               </Grid.Column>
             </Grid.Row>

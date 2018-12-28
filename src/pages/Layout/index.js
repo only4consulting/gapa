@@ -51,7 +51,7 @@ const Layout = ({ children }) => {
               <List>
                 <List.Item>
                   <List.Icon name='users' />
-                  <List.Content>Gapa Asociación Civil (Matricula# 57777)</List.Content>
+                  <List.Content>GAPA Asociación Civil (Matrícula nº 45038)</List.Content>
                 </List.Item>
                 <List.Item>
                   <List.Icon name='marker' />

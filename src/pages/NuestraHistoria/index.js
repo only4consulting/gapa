@@ -34,7 +34,7 @@ const NuestraHistoria = () => {
                   nos enorgullece ver todo lo que hemos logrado, más de mil animales castrados, cientos de tratamientos
                   de vacunación y atención veterinaria específica,  más de 30 jornadas de castración masiva y solidaria
                   hacen que estemos orgullosos de nuestra historia y tengamos la firme convicción de ir por más. En esta
-                  nueva etapa en la vida de G.A.P.A como asociación civil, con personería jurídica (matricula nº45038),
+                  nueva etapa en la vida de GAPA como asociación civil, con personería jurídica (matricula nº45038),
                   pretendemos crecer en actividades que hasta ahora tuvimos algo relegadas, no por falta de ganas ni
                   disposición, sino por creer que para actuar seriamente en el desarrollo de proyectos que involucren
                   a la sociedad, se debe contar con una planificación, organización y puesta en marcha la altura de la
