@@ -70,7 +70,7 @@ class QuieroColaborar extends Component {
                 <Form.Field control={TextArea} label='Mensaje' placeholder='Tu mensaje aquí...' value={message} onChange={(data) => { onSetFormVal('message', data.target.value) }} required />
                 <p><Button type="reset" onClick={this.props.onCancel}>Cancelar</Button> <Button type="submit">Enviar!</Button></p>
                 <Recaptcha
-                  sitekey={ENVAR_API_SITE_KEY}
+                  sitekey={ENVAR_SITE_KEY}
                   render="explicit"
                   verifyCallback={this.verifyCallback}
                 />
