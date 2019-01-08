@@ -54,7 +54,8 @@ const config = {
     }),
     new webpack.DefinePlugin({
       ENVAR_API_URL: JSON.stringify(process.env.API_URL),
-      ENVAR_UAI: JSON.stringify(process.env.UAI)
+      ENVAR_UAI: JSON.stringify(process.env.UAI),
+      ENVAR_SITE_KEY: JSON.stringify(process.env.SITE_KEY)
     })
   ]
 };
