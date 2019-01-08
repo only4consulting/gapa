@@ -8,12 +8,18 @@ const
   path = require('path'),
   port = process.env.PORT || 8080,
   app = express(),
+  mailController = require('./server/controllers/mail'),
   bodyParser = require('body-parser');
 
 // Middlewares
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static('./dist/'));
+
+// Router para la API que envía mail
+const routerMail = express.Router();
+routerMail.route('/mail').post(mailController.postMail);
+app.use('/api', routerMail);
 
 // Router para lo estatico
 const router = express.Router();
@@ -29,4 +35,5 @@ app.use(router);
 app.listen(port);
 
 console.log("Variable de entorno de prueba", process.env.UAI);
+console.log("Variable de entorno de prueba", process.env.API_URL);
 console.log('Servidor corriendo en puerto: ' + port);

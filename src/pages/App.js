@@ -4,9 +4,9 @@ import importedComponent from 'react-imported-component';
 
 import Loading from './Loading';
 
-const AsyncHome = importedComponent(() => import('./Home'), { LoadingComponent: Loading });
-const AsyncAbout = importedComponent(() => import('./NuestraHistoria'), { LoadingComponent: Loading });
+const AsyncHome = importedComponent(() => import('./NuestraHistoria'), { LoadingComponent: Loading });
 const AsyncUs = importedComponent(() => import('./ComisionDirectiva'), { LoadingComponent: Loading });
+const AsyncContact = importedComponent(() => import('./QuieroColaborar'), { LoadingComponent: Loading });
 const AsyncNoMatch = importedComponent(() => import('./NoMatch'), { LoadingComponent: Loading });
 
 const App = () => {
@@ -14,8 +14,8 @@ const App = () => {
     <Router>
       <Switch>
         <Route exact path="/" component={AsyncHome} />
-        <Route exact path="/NuestraHistoria" component={AsyncAbout} />
         <Route exact path="/ComisionDirectiva" component={AsyncUs} />
+        <Route exact path="/QuieroColaborar" component={AsyncContact} />
         <Route component={AsyncNoMatch} />
       </Switch>
     </Router>

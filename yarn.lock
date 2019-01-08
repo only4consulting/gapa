@@ -3724,6 +3724,10 @@ node-releases@^1.1.1:
   dependencies:
     semver "^5.3.0"
 
+nodemailer@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-5.0.0.tgz#bcb409eca613114e85de42646d0ce7f1fa70b716"
+
 nodemon@^1.18.4:
   version "1.18.9"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.18.9.tgz#90b467efd3b3c81b9453380aeb2a2cba535d0ead"
@@ -4867,6 +4871,10 @@ react-is@^16.3.2, react-is@^16.6.0:
 react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+
+react-recaptcha@^2.3.10:
+  version "2.3.10"
+  resolved "https://registry.yarnpkg.com/react-recaptcha/-/react-recaptcha-2.3.10.tgz#1f7a001f24ab7e1a323fcf1fd8644afecb56f7da"
 
 react-redux@^5.0.7:
   version "5.1.1"

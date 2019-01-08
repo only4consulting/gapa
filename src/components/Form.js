@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Form, Message, Button, Input, Label } from 'semantic-ui-react';
+import Recaptcha from 'react-recaptcha';
 
-class Form extends Component {
+class FormContact extends Component {
 
   constructor(props) {
     super(props);
@@ -50,4 +51,4 @@ const mapStateToProps = state => {
   }
 }
 
-export default connect(mapStateToProps, null)(Form);
+export default connect(mapStateToProps, null)(FormContact);
