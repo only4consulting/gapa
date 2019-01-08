@@ -41,7 +41,7 @@ class QuieroColaborar extends Component {
   }
 
   render() {
-    const text = `Por favor deje un mensaje y sus datos de contacto y nos comunicaremos con usted`
+    const text = `Por favor deje un mensaje y sus datos de contacto y nos comunicaremos con usted.`
     const { onSetFormVal } = this.props;
     const { name, email, telephone, subject, message } = this.props.form;
 
