@@ -67,8 +67,6 @@ export const sendEmail = () => async (dispatch, getState) => {
 
     console.log("Error enviando email", err)
 
-    dispatch(setSending(false));
-
   }
 
 };

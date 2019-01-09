@@ -1,21 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Container } from 'semantic-ui-react';
 import { connect } from 'react-redux';
-import Slider from 'react-slick';
 import { testAction } from '../../actions/appActions';
 import Layout from '../Layout';
 import styles from './Home.css';
-
-const settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  adaptiveHeight: true,
-  autoplay: true,
-  useTransform: false,
-};
 
 class Home extends Component {
 
