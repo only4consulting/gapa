@@ -68,12 +68,13 @@ class QuieroColaborar extends Component {
                   <Input maxLength="45" label="Asunto" placeholder='Asunto' value={subject} type='text' onChange={(data) => { onSetFormVal('subject', data.target.value) }} required />
                 </Form.Field>
                 <Form.Field control={TextArea} label='Mensaje' placeholder='Tu mensaje aquí...' value={message} onChange={(data) => { onSetFormVal('message', data.target.value) }} required />
-                <p><Button type="reset" onClick={this.props.onCancel}>Cancelar</Button> <Button type="submit">Enviar!</Button></p>
                 <Recaptcha
                   sitekey={ENVAR_SITE_KEY}
                   render="explicit"
                   verifyCallback={this.verifyCallback}
+                  hl='es-419'
                 />
+                <p><Button type="reset" onClick={this.props.onCancel}>Cancelar</Button> <Button type="submit">Enviar!</Button></p>
               </Form>
             </Container>
           </div>
