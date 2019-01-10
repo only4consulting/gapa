@@ -9,19 +9,39 @@ const Galeria = (props) => {
 
   const images = [
     {
-      original: 'http://lorempixel.com/1000/600/nature/1/',
-      thumbnail: 'http://lorempixel.com/250/150/nature/1/',
+      original: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0220.jpg?alt=media',
+      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0220t.jpg?alt=media',
       description: 'En esta imagen estoy haciendo pepito'
     },
     {
-      original: 'http://lorempixel.com/1000/600/nature/2/',
-      thumbnail: 'http://lorempixel.com/250/150/nature/2/',
-      description: 'Acá hay un auto de carreras muy grande'
+      original: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0223.jpg?alt=media',
+      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0223t.jpg?alt=media',
+      description: 'En esta imagen estoy haciendo pepito'
     },
     {
-      original: 'http://lorempixel.com/1000/600/nature/3/',
-      thumbnail: 'http://lorempixel.com/250/150/nature/3/',
-      description: 'Esta es la descripción larga de la imagen. Quiero que no entre y que ocupe al menos 2 líneas en la imagen'
+      original: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0225.jpg?alt=media',
+      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0225t.jpg?alt=media',
+      description: 'En esta imagen estoy haciendo pepito'
+    },
+    {
+      original: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0226.jpg?alt=media',
+      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0226t.jpg?alt=media',
+      description: 'En esta imagen estoy haciendo pepito'
+    },
+    {
+      original: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0227.jpg?alt=media',
+      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0227t.jpg?alt=media',
+      description: 'En esta imagen estoy haciendo pepito'
+    },
+    {
+      original: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0235.jpg?alt=media',
+      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0235t.jpg?alt=media',
+      description: 'En esta imagen estoy haciendo pepito'
+    },
+    {
+      original: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0244.jpg?alt=media',
+      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/gapaong.appspot.com/o/galeria%2F0244t.jpg?alt=media',
+      description: 'En esta imagen estoy haciendo pepito'
     }
   ]
 
